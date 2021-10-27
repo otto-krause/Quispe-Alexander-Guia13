@@ -2,7 +2,6 @@
 #include <stdlib.h>
 int main()
 {
-	int vn[20]={0};
 	int vdi[15]={0};
 	int vtg=0,vm=0;
 	int i=0,i2=0;
