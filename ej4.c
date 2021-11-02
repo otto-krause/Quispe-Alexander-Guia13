@@ -11,6 +11,6 @@ int main()
 		n[0]=n[0]+n[i];
 	}
 	n[31]=n[0]/30;
-   printf("%.1f",n[31]);
+   printf("Promedio General: %.1f",n[31]);
 	return 0;
 }
