@@ -2,14 +2,14 @@
 #include <stdlib.h>
 int main()
 {
-	int n[5]={0};
-	int m[1]={0};
+	float n[5]={0};
+	float m[1]={0};
 	float p[1]={0};
 	int i;
 	printf("Ingrese 5 numeros: ");
 	for(i=0;i<5;i++)
 	{
-		scanf("%d",&n[i]);
+		scanf("%f",&n[i]);
 	}
 	for(i=0;i<5;i++)
 	{
@@ -25,7 +25,7 @@ int main()
 	}
 	p[1]=n[5]/5;
 	printf("Prom:%.2f\n",p[1]);
-	printf("Mayor:%d",m[1]);
+	printf("Mayor:%.0f",m[1]);
 	return 0;
 }
 
