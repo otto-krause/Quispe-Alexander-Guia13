@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
-	int res[5]={0};
+	int res[6]={0};
 	int i;
 	int rt=0;
 	printf("Ingrese 5 resistencias: ");
