@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-	float n[5]={0};
+	float n[6]={0};
 	float m[1]={0};
 	float p[1]={0};
 	int i;
