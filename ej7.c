@@ -10,9 +10,10 @@ int main()
 		scanf("%d",&nt[i]);
 	}
 	for(i=1;i<16;i++){
-		if(nt[i]>8){
-			printf("[%d]",i);
-		}
+	if(nt[i]>8)
+	{
+	printf("[%d]",i);
+	}
 	}
 	getchar();
 	return 0;
