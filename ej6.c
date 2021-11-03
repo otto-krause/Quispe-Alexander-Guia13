@@ -3,7 +3,7 @@
 #include <stdlib.h>
 int main()
 {
-	int suel[20]={0};
+	int suel[21]={0};
 	int ct[1]={0};
 	int i;
 	for(i=1;i<21;i++)
